@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{ 
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 50, 50);
+  height: 75px;
+}
+
+.leftSide {
+
+  margin-left: 10px;
+  margin-top: 15px;
+  flex: 9;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.rightSide {
+
+  margin-top: 15px;
+  flex: 1;
+  margin-left: 400px;
+  font-size: 40px;
+}
+
+.rightSide a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.fruitBackground{
+  background-image: url(images/istockphoto-1194235751-612x612.jpg);
+  background-repeat: repeat-x;
+  background-size: auto;
+  height: 400px;
+  text-align: center;
+}
+
+.fruitBackground h1 {
+  padding-top: 80px;
+  font-size: 200px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.shopB {
+  position: absolute;
+  left: 40%;
+  font-size: 50px;
+  padding: 18px;
+  top: 420px;
+  background-color: rgb(255, 50, 50);
+  cursor: pointer;
+}
+
+.shopB:hover{
+  background-color: rgb(255, 255, 255);
+}
+
+.shopB:active {
+  background-color: rgb(0, 0, 0);
+}
+
+.inp {
+  width: 100px;
+  background-color: white;
+}
+
+.search {
+
+}
